@@ -5,12 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Farmatodo con Sass</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
-      <div>class="nav-izquierdo"</div>
-      <div>class="nav-centro"</div>
-      <div>class="nav-derecho"</div>
+      <div class="nav-izquierdo">
+        <img
+          src="https://www.farmatodo.com.ve/assets/svg/logo-farmatodo-blue.svg"
+          alt="Farmatodo Logo"
+        />
+        <div>Venezuela</div>
+        <div class="moneda_container">
+          <img
+            src="https://www.farmatodo.com.ve/assets/svg/sdf-icon-coin.svg"
+          />
+          <div class="moneda">
+            <p>1 usd = 97.42 Bs</p>
+            <p>Ref.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-centro">
+        <div class="contenedor-busqueda">
+          <button class="categorias">Categorias</button>
+          <input type="text" placeholder="Buscar Producto" />
+          <button class="buscar">
+            <img src="lupa.svg" />
+          </button>
+        </div>
+      </div>
+
+      <div class="nav-derecho">
+        <div>
+          <i class="fa-solid fa-circle-user"></i>
+        </div>
+        <div>
+          <p>Caracas</p>
+        </div>
+        <p>campana</p>
+        <p>carrito</p>
+      </div>
     </nav>
   </body>
 </html>
