@@ -17,3 +17,14 @@
 @mixin espaciado($padding: 0, $margen: 0)
   padding: $padding
   margin: $margen
+
+@mixin estilizado($color, $tamano, $padding, $margen)
+  if $color not null
+    color: $color
+  if $tamano not null
+    font-size: $tamano
+  if $padding not null
+    padding: $padding
+  if $margen not null
+    margin: $margen
+
